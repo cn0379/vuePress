@@ -1,0 +1,22 @@
+{
+    "name": "安软地图文档",
+    "short_name": "安软地图文档",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#2196f3",
+    "description": "安软地图文档",
+    "theme_color": "blue",
+    "icons": [{
+        "src": "./logo.png", 
+        "sizes": "244x244",
+        "type": "image/jpeg"
+    }],
+    "related_applications": [{
+            "platform": "chrome_web_store"
+        },
+        {
+            "platform": "play",
+            "url": "https://play.google.com/store/apps/details?id=cheeaun.hackerweb"
+        }
+    ]
+}
