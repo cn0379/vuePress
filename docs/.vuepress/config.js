@@ -13,7 +13,7 @@ module.exports = {
       },
       {
         text: '示例',
-        link: '/about/about'
+        link: '/point/'
       },
       {
         text: 'Github',
@@ -22,15 +22,10 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: '第一个侧边栏',
+        title: '覆盖物',
         collapsable: false,
-        children: ['/firstside/', '/firstside/child/','/firstside/otherModel', ] // 这个是根据自己的需求来订，对应自己在docs下的文件夹名，默认首页是README.md
+        children: ['/point/', '/point/child/','/point/otherModel', ] // 这个是根据自己的需求来订，对应自己在docs下的文件夹名，默认首页是README.md
       },
-      {
-        title: '第二个侧边栏',
-        collapsable: false, // 开启展开收起功能，注意下图中菜单名称旁边的小角标
-        children: ['/firstside/', '/firstside/child/','/firstside/otherModel', ] // 这个是根据自己的需求来订，对应自己在docs下的文件夹名，默认首页是README.md
-      }
     ],
     sidebarDepth: 4,
     lastUpdated: 'Last Updated'
