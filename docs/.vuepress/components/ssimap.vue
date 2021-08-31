@@ -6,10 +6,12 @@
 </template>
 
 <script>
-import SsiMap from '../../../../../ssimspro/ssimspro/packages/ssi-map-core/index'
+import SsiMap from '../../../../../../ssimspro/ssimspro/packages/ssi-map-core/index'
+
 export default {
   mounted() {
     const mapId = document.getElementById('map')
+    console.log(mapId);
     const map = new SsiMap.SsiMap('testkey', {
       container: mapId,
       center: [121.13055, 31.457735],
