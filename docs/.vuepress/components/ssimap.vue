@@ -15,8 +15,8 @@ export default {
     const map = new SsiMap.SsiMap('testkey', {
       container: mapId,
       center: [121.13055, 31.457735],
-      zoom: 12,
-      style: 'mapbox://styles/mapbox/streets-v11'
+      zoom: 20,
+      aA:'6'
     })
     map.setPoint('point',)
   },

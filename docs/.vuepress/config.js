@@ -23,7 +23,7 @@ module.exports = {
     sidebar: [{
       title: '覆盖物',
       collapsable: false,
-      children: ['/point/', ] // 这个是根据自己的需求来订，对应自己在docs下的文件夹名，默认首页是README.md
+      children: ['/point/', '/fill/','/line/'] 
     }, ],
     sidebarDepth: 4,
     lastUpdated: 'Last Updated'

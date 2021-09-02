@@ -21,6 +21,7 @@ export default {}
   cursor: pointer;
   display: inline-block;
   margin-right: 20px;
+  line-height: 30px;
 }
 .btn:hover {
   opacity: 0.8;
